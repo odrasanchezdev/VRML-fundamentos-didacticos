@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+Group{	#INICIO DE NODO
+	children[	#INICIO DE CAMPOS
+		Shape{	#INICIO DE NODO
+		geometry Box{ #INICIO DE CAMPOS
+			size 2.0 5.0 3.0
+			    }	#CIERRE DE CAMPOS
+			    },	#CIERRE DE NODO
+		Shape{	#INICIO DE NODO
+		geometry Cone{	#INICIO DE CAMPOS
+			height 7.0
+			bottomRadius 0.75
+			     }	#CIERRE DE CAMPOS
+			     },	#CIERRE DE NODO
+		Shape{	#INICIO DE NODO
+		geometry Cylinder{	#INICIO DE CAMPOS
+			height 5.0
+			radius 1.5
+			     }	#CIERRE DE CAMPOS
+			     },	#CIERRE DE NODO
+		Shape{	#INICIO DE NODO
+		geometry Sphere{	#INICIO DE CAMPOS
+			radius 2.0
+			     }	#CIERRE DE CAMPOS
+			     }	#CIERRE DE NODO
+]
+}

@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+Group{	#INICIO NODO
+	children[	#INICIO CAMPOS
+		Shape{	#INICIO NODO
+		geometry Cylinder{	#INICIO CAMPO
+				height 5.0
+				radius 1.5
+				 }	#CIERRE DE CAMPO
+				 },	# CIERRE DE NODO
+		Shape{	#INICO NODO
+		geometry Sphere{	#INICO CAMPO
+				radius 2.0
+				}	#CIERRE DE CAMPO
+				}	#CIERRE NODO		
+		]#CIERRE DE CAMPOS
+}	#CIERRE DE NODO

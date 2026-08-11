@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+Group{ 	#NODO PRINCIPAL
+children[	#CHILDREN PRINCIPAL
+  Transform{	#NODO
+  translation 5.0 0.0 0.0  #TRANSLACION EJE X
+      children[ #AGRUPACION
+      Shape{ 
+           geometry Box{size 2.0 2.0 2.0} #NODO CAJA
+           }#CIERRA SHAPE CUBO
+]#CIERRA CHILDREN DEL CUBO
+}, #CIERRA TRANSFORM DEL CUBO
+
+   Transform{#TRANSFORM DEL CILINDRO
+   translation 5.0 3.0 0.0 #TRANSLACION DEL CILINDRO
+       children[#CHILDREN DEL CILINDRO
+       Shape{ #SHAPE DEL CILINDRO
+            geometry Cylinder{height 2.0
+                              radius 1.5}#NODO CILINDRO
+}#CIERRA SHAPE DEL CILINDRO
+]#CIERRA CHILDREN DEL CILINDRO
+},#CIERRA TRANSFORM DEL CILINDRO
+
+   Transform{#TRANSFORM DE LA ESFERA
+   translation 10.0 0.0 0.0 #TRANSLACION DE LA ESFERA
+       children[#CHILDREN DE LA ESFERA
+       Shape{ #SHAPE DE LA ESFERA
+             geometry Sphere{radius 2.0}#NODO ESERA
+}#CIERRA SHAPE ESFERA
+]#CIERRA CHILDREN DE LA ESFERA
+}, #CIERRA TRANSFORM DE LA ESFERA
+    Transform{#TRANSFORM DEL CONO
+    translation 10.0 4.0 0.0 #TRANSLACION DEL CONO
+        children[#CHILDREN DEL CONO
+        Shape{ #SHAPE DEL CONO
+              geometry Cone{height 2.0
+                            bottomRadius 2.0}#NODO CONO
+}#CIERRA SHAPE DEL CONO
+]#CIERRA CHILDREN DEL CONO
+}#CIERRA TRANSFORM DEL CONO
+]#CIERRA CHILDREN PRINCIPAL
+}#CIERRA GROUP PRINCIPAL

@@ -1,0 +1,10 @@
+#VRML V2.0 utf8
+Shape { 
+#Nodo que visualiza al objeto
+	appearance Appearance {
+	material Material{}
+			  }
+geometry Box {
+		size 1.0 1.0 1.0 
+		}
+}

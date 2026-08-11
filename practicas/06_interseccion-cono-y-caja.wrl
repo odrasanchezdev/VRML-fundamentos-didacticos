@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+Group {	#NODO
+	children #CAMPOS
+		[Shape{		#INICIO DE NODO
+			geometry Box{	#CAMPOS DE CAJA
+					size 2.0 0.5 3.0
+			    }
+			    },	#CIERRE DE CAJA
+		Shape{	#INICO DE NODO 
+			geometry Cone{	#CAMPOS DE CONO
+					height 3.0
+					bottomRadius 0.75
+			     }
+			     }]	#CIERRE DE CONO
+}	#CIERRE DE NODO GROUP
